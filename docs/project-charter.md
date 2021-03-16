@@ -3,7 +3,8 @@
 ## Background
 
 Wrenchie Mechanics customer acquisition and retention is declining since 2008.
-This trend is due to competitors being more favourable across the company's target group.
+This trend is due to competitors being more favorable
+across the company's target group.
 Profitability has been severely impacted.
 Wrenchie Mechanics is yet to turn profitable since the end of 2018.
 
@@ -25,7 +26,7 @@ matching the parameters set forth by this document.
 
 - Backend is able to handle up to 1000 parallel connections
 with the following characteristics
-  - Latency average is under 400ms
+  - Latency average is under 400 ms
   - Network error rate is under 5% of total requests
   - Application error rate is under 1% of total requests
 

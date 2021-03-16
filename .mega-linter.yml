@@ -1,0 +1,13 @@
+# Configuration file for Mega-Linter
+# See all available variables at https://nvuillam.github.io/mega-linter/configuration/ and in linters documentation
+
+APPLY_FIXES: none # all, none, or list of linter keys
+DEFAULT_BRANCH: main # Usually master or main
+# ENABLE: # If you use ENABLE variable, all other languages/formats/tooling-formats will be disabled by default
+# ENABLE_LINTERS: # If you use ENABLE_LINTERS variable, all other linters will be disabled by default
+SHOW_ELAPSED_TIME: true
+FILEIO_REPORTER: false
+# .devcontainer/devcontainer.json is a commented JSON format. This format is unsupported by JSON linters.
+JSON_JSONLINT_FILTER_REGEX_EXCLUDE: .devcontainer/devcontainer.json
+JSON_ESLINT_PLUGIN_JSONC_FILTER_REGEX_EXCLUDE: .devcontainer/devcontainer.json
+SPELL_CSPELL_FILTER_REGEX_INCLUDE: ".*\\.md"
